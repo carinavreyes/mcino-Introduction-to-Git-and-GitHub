@@ -1,21 +1,2 @@
-$ https://github.com/carinavreyes/mcino-Introduction-to-Git-and-GitHub/blob/bug-fix-revert/bug-fix-revert
-bash: https://github.com/carinavreyes/mcino-Introduction-to-Git-and-GitHub/blob/bug-fix-revert/bug-fix-revert: No such file or directory
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-revert
-Switched to branch 'bug-fix-revert'
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ $ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7723 | jq -r '.head.repo.clone_url'
-bash: $: command not found
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -I https://github.com/carinavreyes/mcino-Introduction-to-Git-and-GitHub/pull/7723
-HTTP/2 302 
-date: Sat, 16 May 2026 21:22:21 GMT
-content-length: 0
-location: https://github.com/carinavreyes/mcino-Introduction-to-Git-and-GitHub/issues/7723
-server-timing: nginx;desc="NGINX";dur=1.461323,glb;desc="GLB";dur=3.994326
-x-voltron-version: 2f68303
-vary: Accept-Encoding, Accept, X-Requested-With
-server: github.com
-x-frame-options: DENY
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-set-cookie: _gh_sess=S6Q3vbYwGOvb6mtdJTHDPTN1UvnGz3lfTJIdjaJwUlq8oo9L%2Fm6gMMYUylkOdqlT1lzs0CyaEufiDfoJPvwodxdz0A%2FYKaXaA9hSLE6ruKLgc%2Fn9jv6fjuuV7eHMG%2Fa2j86ayZNRlr%2FeSFU0FSNJBmergC52r%2BxVhh%2BgjORxIgzBaeQJbRebv2l4P1DriNu87AoxF1J2tdoLUhP%2F92CrMbJ5cNoluBz5RFUSu%2B%2FLiJlqxqxaf%2BDjS7ofdjqRdM9X5ZqlhVnYqyvRv8JKv0uA3Q%3D%3D--XeDT349f6UOsBpga--nJrHm9g95BMQpEkzalrjJQ%3D%3D; path=/; HttpOnly; secure; SameSite=Lax
-set-cookie: _octo=GH1.1.1402327599.1778966541; expires=Sun, 16 May 2027 21:22:21 GMT; domain=.github.com; path=/; secure; SameSite=Lax
-set-cookie: logged_in=no; expires=Sun, 16 May 2027 21:22:21 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax
-x-github-request-id: 6E82:1CED94:78184D:9402EA:6A08E00D
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7723 | jq -r '.head.repo.clone_url'
+https://github.com/carinavreyes/mcino-Introduction-to-Git-and-GitHub.git
