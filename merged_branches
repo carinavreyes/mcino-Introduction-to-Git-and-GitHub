@@ -1,23 +1,10 @@
-$ git checkout main
+$ git add .
+theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git commit -m "README.md 2022 to 2023"
+[bug-fix-typo d8d3aba] README.md 2022 to 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
 Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
-Updating f92f003..9dead5c
-Fast-forward
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git status
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 8 commits.
   (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git loh
-git: 'loh' is not a git command. See 'git --help'.
-
-The most similar command is
-        log
-theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git log
-commit 9dead5cf2e4508723ced332357b096b4ba9e50ab (HEAD -> main, bug-fix-typo)
-Author: carinavreyes <vel.rryss@gmail.com>
-Date:   Sat May 16 16:48:07 2026 -0400
-
-    changed to 2023
+theia@theia-velrryss:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
+Merge made by the 'ort' strategy.
