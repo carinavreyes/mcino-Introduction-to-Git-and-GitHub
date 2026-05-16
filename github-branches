@@ -1,0 +1,4 @@
+$ git branch -vv
+* bug-fix-revert ab1cd98 revert to 2022
+  bug-fix-typo   f92f003 updated read me 2022 to 2023
+  main           f92f003 [origin/main] updated read me 2022 to 2023
